@@ -1,5 +1,5 @@
 pipeline {
-    agent { node {label 'qa'}}
+    agent { node {label 'master'}}
     stages {
         stage('Build') {
             when {
